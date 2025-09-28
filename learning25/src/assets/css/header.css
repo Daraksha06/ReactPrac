@@ -1,0 +1,8 @@
+/* external css */
+.header{
+    background-color: thistle;
+    width: 100%;
+    color: black;
+    text-align: center;
+    height: 150px; 
+}

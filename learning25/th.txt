@@ -1,0 +1,151 @@
+js revise:
+variable,function,json,array[find,map,filter]
+string, 
+promise
+
+MERN:
+mongo database
+e express js
+r react js
+n node js
+
+------------------------------------------------
+Facebook: 2004
+Tech: Php -->
+
+Frontend : PHP
+backend  : PHP
+database : MySQL
+------------------------
+1,00,000 : -- 1,00,000
+component:
+20,000
+
+f -->b tightly bounded
+----------------------
+frontend : php:
+frontend tech:
+
+
+N tire arch introduce:
+
+Frontend tech : diff
+backend tech  : diff
+
+-------------------------
+Angular js:
+------------------->>
+Facebook -- react js -- now handled by  meta
+
+react js is framework or library ?
+Framework is predefine arch developed on existing tech:
+it helps developer to foucus on business logic , 
+and comoon logic will be omp by fw
+
+library: is not specific arch...
+
+:database connectivity: 25 line ==>which same will 
+20 -->line --4 line
+
+
+:html js -- form : data--js
+document.createlem(""h1)
+
+
+
+2 type fw:
+frontend fw: js..
+backend fw: java[spring...],python[django...],php[lar...],js[..node]
+
+java - react
+
+react js is a library:
+-------------------------------------------------------------------
+
+js: client side: -->
+  : server side: ->compiler --> node js is run time environment js
+
+------------------------------------------------------------------
+
+react js -->server -->js[runtime ->nodejs]--> system -->nodejs
+
+------------------------------------------------------------------
+
+JDK: -->jvm/jre --> .jar --> packages -->classes -->methods
+npm: ->node_modules --> dist/build --> pakc -> .js/.ts --> functions
+npm create vite
+npm:node package manager:
+
+d: c:
+  ->projects
+    -->MERN
+       -->ctrl + L
+	  -->cmd and enter
+cmd:
+   npm create vite
+	press y
+        projectName: learning25
+	react
+	javascript
+
+aftet project creration 
+
+-------->
+cd learning25
+npm install
+code .  : to open in vs code
+
+new terminal
+
+write cmd
+npm run dev
+
+index.html --> main.jsx -->app.jsx [output]
+
+JSX
+
+Default app.jsx
+custom component:
+react js 
+2 type of component we can create:
+
+1)function based component : 16.8
+2)class bases component :
+
+js --> using funciton keyword
+   --> arrow function
+component name must starts with cap
+
+vs ext --> component
+
+20-09-2025
+
+src -->new folder components --> new file -- Header.jsx -- >rafc
+import header in app.js
+
+Footer.jsx -->
+Content.jsx: -->
+
+stylling in react js:
+inline :
+ext:
+
+------------------------
+
+src--assets/css -- create file header.css
+
+lifecycle:
+hooks: built in funciton,udf,third party
+     : use word 
+     : component life cycle:
+     : mount --> unmount:
+
+useState: to maintain state variable in react js component we can use...
+
+RESERECH ON VDOM: document
+
+
+BOM: browser object model
+DOM : document object model
+Virtual Dom : vdom
+vdom is light weighed copy of real dom:
