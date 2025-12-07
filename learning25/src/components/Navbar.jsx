@@ -16,6 +16,18 @@ const Navbar = () => {
                     <li class="nav-item">
                         <Link class="nav-link" to="/nmovies">Movies</Link>  
                 </li> 
+                     <li class="nav-item">
+                        <Link class="nav-link" to="/nbooks">Books</Link>  
+                </li> 
+                        <li class="nav-item">
+                        <Link class="nav-link" to="/ntableimp">Table</Link>  
+                </li> 
+                    <li class="nav-item">
+                        <Link class="nav-link" to="/formdemo7">   form demo7 </Link>
+                     </li>
+                      <li class="nav-item">
+                        <Link class="nav-link" to="/apidemo1">   api demo 1  </Link>
+                     </li>
             </ul>
         </div>
     </nav>
@@ -28,4 +40,4 @@ export default Navbar
 
 
 
-//  {/* <a class="nav-link" href="/nmovies">Movies</a>    when we use this anchor tag , page refreshes  hence we will use link*/   }
+//  {/* <a class="nav-link" href="/nmovies">Movies</a>    when we use this anchor tag , page refreshes  hence we will use Link*/   }

@@ -149,3 +149,97 @@ BOM: browser object model
 DOM : document object model
 Virtual Dom : vdom
 vdom is light weighed copy of real dom:
+
+onInput
+onKeyPress
+onKeyUp
+onKeyDown
+onChange
+
+HTML -- >event --->event gen -->javascript
+
+
+
+html
+<p id=text>
+
+jsdocument.get("ytexy")
+inn...
+
+HTML --> js
+aboutus.html
+
+<a href ="./anoutus.html>
+
+SINGLE PAGE APPLICATION : index.html
+
+React Routing:
+components: URL -->
+<BrowserRouter> react application : routing enable...:main.jsx
+<Routes> : it define routes in component
+<Route> : it will create single route for compo..
+
+3rd party package install:
+react-router-dom
+local :-->not found -->npm.js
+
+npm i react-router
+
+npm i react-router-dom
+ 
+
+3 comoon
+netlixHome..movies and shows
+\
+PAGE MUST NOT REFRESH in Single page app
+<a href ="" > --> <Link to="">
+<Link> react-router-dom
+Navbar..
+
+communication bw component:
+1comp -->2comp
+3 ways to send data bw
+
+1)props : parent -->child - -- > child*  a -->b -->[c]
+2)context : parent -->child ->child -->child
+3)redux   : no need of parent child relation
+
+
+Props: property:
+1)props is object
+1)props is immutable object
+
+parent- -->child
+
+
+<h1>
+<h1 id=""> attribute
+
+
+TASK:
+create component names Employee.jsx
+Employee -->will have one employees array [{},{}] -- id name .....
+EmployeeList.jsx -->
+pass employees array as prop from parent to child [Employee -->EmployeeList]
+in EMployeeList com
+print array in table fmt
+
+Task2
+Creare Component Students --> create an array of students inside this pass as props in StudentList
+print table in child componet
+extra: 
+
+create info function in student component[parent]--pass that to child[studentList]
+
+create button in loop[map] named info
+
+call that info funcion from loop only and pass id in param...
+
+const info =(id)=>{
+
+   alert(id)
+}
+
+id name .... action
+              info
+              info

@@ -16,16 +16,27 @@ import Movies from './netflix/Movies'
 import Shows from './netflix/Shows'
 import { Route } from 'react-router-dom';
 import { Error404 } from './components/Error404'
+import Watch from './netflix/Watch'
+import Books from './components/Books'
+import Tableimple from './components/Tableimple'
+import { FormDemo7 } from './forms/FormDemo7'
+import ApiDemo1 from './api/ApiDemo1'
 function App() {
  
   return (
   <div>
       <Navbar></Navbar>
       <Routes>
+            <Route path='/' element={<Home/>} ></Route>
           <Route path='/nhome' element={<Home/>} ></Route>
           <Route path='/nmovies' element={<Movies/>}  ></Route>
           <Route path='/nshows' element={<Shows/>}  ></Route>
+          <Route path='/nwatch/:name' element={<Watch/>}></Route>
           <Route path='/*' element={<Error404/>}></Route>
+          <Route path='/nbooks' element={<Books/>}></Route>
+          <Route path='/ntableimp' element={<Tableimple/>}></Route>
+           <Route path='/formdemo7' element = {<FormDemo7/>}></Route>
+            <Route path='/apidemo1' element = {<ApiDemo1/>}></Route>
       </Routes>
   </div>
   )
