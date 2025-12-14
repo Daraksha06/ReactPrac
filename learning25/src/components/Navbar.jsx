@@ -28,6 +28,9 @@ const Navbar = () => {
                       <li class="nav-item">
                         <Link class="nav-link" to="/apidemo1">   api demo 1  </Link>
                      </li>
+                        <li class="nav-item">
+                        <Link class="nav-link" to="/findbombgame">  Find bomb game  </Link>
+                     </li>
             </ul>
         </div>
     </nav>

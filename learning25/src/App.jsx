@@ -21,8 +21,9 @@ import Books from './components/Books'
 import Tableimple from './components/Tableimple'
 import { FormDemo7 } from './forms/FormDemo7'
 import ApiDemo1 from './api/ApiDemo1'
+import FindBombGame from './components/FindBombGame'
 function App() {
- 
+
   return (
   <div>
       <Navbar></Navbar>
@@ -37,6 +38,8 @@ function App() {
           <Route path='/ntableimp' element={<Tableimple/>}></Route>
            <Route path='/formdemo7' element = {<FormDemo7/>}></Route>
             <Route path='/apidemo1' element = {<ApiDemo1/>}></Route>
+            <Route path='/findbombgame' element = {<FindBombGame/>}></Route>
+            
       </Routes>
   </div>
   )
