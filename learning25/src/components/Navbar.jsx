@@ -31,6 +31,10 @@ const Navbar = () => {
                         <li class="nav-item">
                         <Link class="nav-link" to="/findbombgame">  Find bomb game  </Link>
                      </li>
+                    <li class="nav-item">
+                        <Link class="nav-link" to="/whatsappTask">  Whatsapp task  </Link>
+                     </li>
+                   
             </ul>
         </div>
     </nav>

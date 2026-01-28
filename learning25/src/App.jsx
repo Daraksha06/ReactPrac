@@ -22,6 +22,7 @@ import Tableimple from './components/Tableimple'
 import { FormDemo7 } from './forms/FormDemo7'
 import ApiDemo1 from './api/ApiDemo1'
 import FindBombGame from './components/FindBombGame'
+import WhatsappTask from './components/whatsappTask'
 function App() {
 
   return (
@@ -39,6 +40,7 @@ function App() {
            <Route path='/formdemo7' element = {<FormDemo7/>}></Route>
             <Route path='/apidemo1' element = {<ApiDemo1/>}></Route>
             <Route path='/findbombgame' element = {<FindBombGame/>}></Route>
+            <Route path='/whatsappTask' element={<WhatsappTask/>} ></Route>
             
       </Routes>
   </div>
